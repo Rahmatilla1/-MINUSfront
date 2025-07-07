@@ -15,7 +15,7 @@ import { deleteMessage, updateMessage } from "../../api/messageRequests";
 import { toast } from "react-toastify";
 
 // 🔗 Socket ulanish (bitta marta)
-const socket = io("http://localhost:4002/");
+const socket = io("https://minus-77tf.onrender.com/");
 
 const Chat = () => {
   const {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const serverUrl = process.env.REACT_APP_SERVER_URL || "http://localhost:4002"; // fallback
+const serverUrl = process.env.REACT_APP_SERVER_URL || "https://minus-77tf.onrender.com"; // fallback
 
 const API = axios.create({ baseURL: serverUrl });
 
