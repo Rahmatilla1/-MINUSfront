@@ -1,0 +1,31 @@
+.form-settings{
+   padding: 10px;
+   display: flex;
+   margin-left: 50px;
+   width: 80%;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.form-settings input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(52, 112, 64, 0.835);
+    border-radius: 10px;
+}
+
+.form-settings button{
+  padding: 5px;
+  margin-left: 120px;
+  border: 1px solid rgba(52, 112, 64, 0.835);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+label{
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid rgba(52, 112, 64, 0.835);
+  width: 100px;
+  border-radius: 10px;
+}

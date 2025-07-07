@@ -1,0 +1,205 @@
+.chat-body{
+    height: 90vh;
+    overflow: auto;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.message{
+    padding: 5px;
+    width: 70%;
+    border-radius: 10px 10px 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 216, 216);
+    border: 1px solid gray;
+}
+
+.message-date{
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+.own{
+    border-radius: 10px 10px 0 10px;
+    margin-left: auto;
+    border: 1px solid green;
+    background-color:#33e050;
+}
+
+.chat-body{
+    padding-top: 10px;
+    height: 73vh;
+}
+
+.chat-sender{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.sender-file-btn{
+    padding: 5px 15px;
+    background: gray;
+    border: 1px solid gray;
+}
+
+.send-btn{
+    padding: 10px 15px;
+    background: #33e050;
+    border: 1px solid gray;
+}
+
+.message-file-input{
+    display: none;
+}
+
+.file-message{
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-actions i {
+  font-size: 14px;
+  color: #aaa;
+  margin-left: 8px;
+}
+
+.message-actions i:hover {
+  color: red;
+}
+
+.fa-trash-can {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: red !important;
+}
+
+.fa-pen-clip {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: blue !important;
+}
+
+.audio-recorder button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+.fa-microphone {
+    color: blue !important;
+}
+
+.fa-stop {
+    color: red !important;
+}
+
+.fa-trash {
+    color: red !important;
+}
+
+.round-video {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.video-recorder button {
+  margin: 0 5px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.video-recorder button:hover {
+  background-color: #ccc;
+}
+
+.file-video {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  background-color: black;
+}
+
+@media only screen and (max-width:768px){
+    .user-info{
+        width: 100%;
+    }
+    
+    .message{
+        padding: 5px;
+        width: 90%;
+        border-radius: 10px 10px 10px 0;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(216, 216, 216);
+        border: 1px solid gray;
+    }
+    
+    .own{
+        border-radius: 10px 10px 0 10px;
+        margin-left: auto;
+        border: 1px solid green;
+        background-color:#33e050;
+    }
+    
+    .chat-body{
+        padding-top: 10px;
+        height: 73vh;
+    }
+    
+    .chat-sender{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: space-between;
+    }
+    
+    .sender-file-btn{
+        padding: 5px 15px;
+        background: gray;
+        border: 1px solid gray;
+    }
+    
+    .send-btn{
+        padding: 10px 15px;
+        background: #33e050;
+        border: 1px solid gray;
+    }
+    
+    .message-file-input{
+        display: none;
+    }
+    
+    .file-message{
+        padding: 5px;
+        width: auto;
+    }
+}

@@ -1,0 +1,106 @@
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.search-box img{
+    border-radius: 50%;
+}
+
+.search-user{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: var(--profileShadow);
+    padding: 10px 20px;
+    height: 92vh;
+    overflow-y: auto;
+}
+
+.search-input-box{
+    position: relative;
+}
+
+.search-input{
+    padding: 8px 20px;
+    background-color: rgb(216, 248, 214);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+.search-img{
+    position: absolute;
+    top: 4px;
+    padding: 4px;
+    color: black;
+    right: 5px;
+    border-radius: 8px;
+}
+
+.search-user > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.logo-app{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px){
+    .search-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+    
+    .search-box img{
+        border-radius: 50%;
+    }
+    
+    .search-user{
+        background-color: white;
+        border-radius: 10px;
+        max-width: 400px;
+        box-shadow: var(--profileShadow);
+        padding: 10px 20px;
+        height: 92vh;
+        overflow-y: auto;
+    }
+    
+    .search-input-box{
+        position: relative;
+    }
+    
+    .search-input{
+        padding: 10px 25px;
+        width: 200px;
+        background-color: rgb(216, 248, 214);
+        border-radius: 50px;
+        outline: none;
+        border: none;
+    }
+    .search-img{
+        position: absolute;
+        top: 4px;
+        padding: 4px;
+        color: black;
+        right: 5px;
+        border-radius: 8px;
+    }
+    
+    .search-user > h1{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+}

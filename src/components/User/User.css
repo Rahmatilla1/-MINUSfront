@@ -1,0 +1,56 @@
+
+.user-info-box{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.msg-btn{
+    align-self: flex-end;
+}
+
+.online-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: absolute;
+    left: 40px;
+    top: 4px;
+    border: 1px solid white;
+}
+.offline-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: absolute;
+    left: 40px;
+    top: 4px;
+    border: 1px solid white;
+}
+
+.status{
+    color: greenyellow;
+}
+.offline-status{
+    color: gray;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 180px;
+    padding-left: 10px;
+}

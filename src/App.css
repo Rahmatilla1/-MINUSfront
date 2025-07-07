@@ -1,0 +1,41 @@
+:root {
+  --yellow: #f5c32c;
+  --yellowgreen: #ceef57;
+  --bluewhite: #56becc;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(238, 243, 247, 0.445);
+  --buttonBg: linear-gradient(98.63deg, #25cff9 0%, #0ca3c9 50%, #0d3fac 100%);
+  --inputColor: rgba(8, 15, 85, 0.07);  
+  --msgBg: linear-gradient(98.63deg, rgb(200, 54, 54) rgb(159, 98, 98) rgba(214, 11, 11, 0.745) 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blur {
+  position: absolute;
+  max-width: 350px;
+  width: 90%;
+  max-height: 210px;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #a6ddf0;
+  filter: blur(72px);
+  top: 10%;
+  right: 10%;
+  z-index: -1;
+}
+
+.blur:nth-child(2) {
+    top: 56;
+    left: 10%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

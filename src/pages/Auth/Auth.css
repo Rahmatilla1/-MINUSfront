@@ -1,0 +1,125 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  flex-wrap: wrap;
+}
+
+.auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.auth-left {
+  gap: 30px;
+}
+
+.logo-img {
+  display: block;
+  height: 64px;
+  width: 64px;
+}
+
+.app-name > h1 {
+  font-size: 48px;
+}
+.app-name > h6 {
+  font-size: 16px;
+}
+
+.auth-form {
+  background-color: var(--cardColor);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-form > div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.info-input {
+  outline: none;
+  border: none;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+}
+
+.info-btn {
+  padding: 12px 24px;
+  margin-left: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-image: var(--buttonBg);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.button:hover {
+  color: lightcyan;
+  outline: 4px solid lightcyan;
+  background-color: transparent;
+}
+
+.button:disabled {
+  background-color: silver;
+  pointer-events: none;
+}
+
+.info-span {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #247a45d8;
+}
+
+.outline-danger{
+  outline: 2px solid red;
+}
+
+.confirm-span {
+  color: red;
+  font-size: 12px;
+  align-self: flex-end;
+  margin-right: 16px;
+  margin-top: 5px;
+}
+
+@media (max-width: 768) {
+  .logo-img {
+    width: 54px;
+    height: 54px;
+  }
+  .app-name > h1 {
+    font-size: 38px;
+  }
+  .app-name > h6 {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .auth > div {
+    margin: 0 auto;
+  }
+  .auth-form > div {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
