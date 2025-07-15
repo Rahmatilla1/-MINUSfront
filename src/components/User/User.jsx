@@ -72,7 +72,7 @@ export const Users = ({ users }) => {
                   }}
                   src={
                     user?.profilePicture
-                      ? `https://minus-77tf.onrender.com/${user?.profilePicture}`
+                      ? `http://localhost:4002/${user?.profilePicture}`
                       : profile
                   }
                   alt="profile-img"
